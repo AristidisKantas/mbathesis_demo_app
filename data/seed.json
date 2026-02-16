@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Initialize SQLite schema",
+    "description": "Create the tasks table and basic DB utilities.",
+    "priority": "high",
+    "effort_sp": 3,
+    "dependencies": []
+  },
+  {
+    "title": "Implement basic CRUD endpoints",
+    "description": "Create list/create/get/update/delete endpoints for tasks.",
+    "priority": "high",
+    "effort_sp": 5,
+    "dependencies": [1]
+  },
+  {
+    "title": "Build minimal board UI",
+    "description": "Display tasks in three columns: todo/doing/done.",
+    "priority": "medium",
+    "effort_sp": 3,
+    "dependencies": [2]
+  }
+]
